@@ -69,7 +69,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/s_40"
         android:background="@drawable/rouned_corner2"
-        android:backgroundTint="#E63946"
+        android:backgroundTint="#ffacb7"
         android:enabled="false"
         android:padding="@dimen/s_10"
         android:text="@string/login" />
