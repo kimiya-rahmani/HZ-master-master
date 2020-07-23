@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BubbleImageView">
+        <attr name="bubble_arrowTop" format="dimension|reference" />
+        <attr name="bubble_arrowWidth" format="dimension|reference" />
+        <attr name="bubble_arrowHeight" format="dimension|reference" />
+        <attr name="bubble_arrowOffset" format="dimension|reference" />
+        <attr name="bubble_angle" format="dimension|reference" />
+        <attr name="bubble_arrowLocation" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ClipImageView">
+        <attr name="civHeight" format="integer" />
+        <attr name="civWidth" format="integer" />
+        <attr name="civTipText" format="string" />
+        <attr name="civTipTextSize" format="dimension" />
+        <attr name="civMaskColor" format="color" />
+        <attr name="civClipPadding" format="dimension" />
+        <attr name="civClipRoundCorner" format="dimension|reference" />
+        <attr name="civClipCircle" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="fc">
+        <attr name="promptId" format="reference" />
+        <attr name="contentId" format="reference" />
+        <attr name="contentMaxLine" format="integer" />
+        <attr name="lefIconId" format="reference" />
+        <attr name="funTxtId" format="reference" />
+        <attr name="functionIconId" format="reference" />
+        <attr name="rightIconId" format="reference" />
+        <attr name="lefIconVisible" format="integer" />
+        <attr name="tbVisible" format="integer" />
+        <attr name="rightIconVisible" format="integer" />
+        <attr name="detail" format="reference" />
+        <attr name="lineVisible" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="headInfo">
+        <attr name="titleId" format="reference" />
+        <attr name="infoId" format="reference" />
+        <attr name="hRightIconId" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="empty">
+        <attr name="mainContentId" format="reference" />
+        <attr name="subContentId" format="reference" />
+        <attr name="btnTxtId1" format="reference" />
+        <attr name="btnTxtId2" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="tab">
+        <attr name="iconId" format="reference" />
+        <attr name="txtId" format="reference" />
+        <attr name="txtColorId" format="color" />
+        <attr name="txtSizeId" format="dimension" />
+        <attr name="isSelected" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="guide">
+        <attr name="gTitleId" format="reference" />
+        <attr name="gContentId" format="reference" />
+        <attr name="gImgId" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="roundProgress">
+        <attr name="roundColor" format="color" />
+        <attr name="roundWidth" format="dimension" />
+        <attr name="progressColor" format="color" />
+        <attr name="progressWidth" format="dimension" />
+        <attr name="max" format="integer" />
+        <attr name="startAngle" format="integer" />
+        <attr name="style">
+            <enum name="STROKE" value="0" />
+            <enum name="FILL" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>

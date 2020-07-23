@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/share_bg">
+
+    <TextView
+        style="@style/AppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:text="Howzit"
+        android:textColor="#F1FAEE"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:rotation="0"
+        android:scaleX="0.4"
+        android:scaleY="0.4"
+        android:src="@drawable/logo2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/spacing_20"
+        android:paddingRight="@dimen/spacing_20">
+
+        <TextView
+            android:id="@+id/id_login_create_account_bt"
+            style="@style/BtBgWhiteFontBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:gravity="center"
+            android:text="@string/create_account"
+            android:textColor="#1D3557" />
+
+        <TextView
+            android:id="@+id/id_login_login_bt"
+            style="@style/BtBgBlueFontWhite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/s_30"
+            android:background="@drawable/rouned_corner2"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textColor="#1D3557"
+            android:textColorHighlight="#FFFFFF" />
+
+     <TextView
+            android:id="@+id/id_login_import_account_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:padding="@dimen/s_10"
+            android:text="@string/import_account"
+            android:textColor="#A8DADC" />
+    </LinearLayout>
+
+</RelativeLayout>
